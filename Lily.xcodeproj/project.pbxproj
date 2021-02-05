@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C61750EDB025E51D49748A /* Pods_Lily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57625840470FBB66C8050ABC /* Pods_Lily.framework */; };
+		DA3EEC9225CDBC6300A94258 /* LilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EEC9125CDBC6300A94258 /* LilyApp.swift */; };
+		DA3EEC9625CDBC6300A94258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3EEC9525CDBC6300A94258 /* Assets.xcassets */; };
+		DA3EEC9925CDBC6300A94258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3EEC9825CDBC6300A94258 /* Preview Assets.xcassets */; };
+		DA3EECA425CDBD2500A94258 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECA325CDBD2500A94258 /* Item.swift */; };
+		DA3EECA925CDBD4000A94258 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECA825CDBD4000A94258 /* Cart.swift */; };
+		DA3EECAE25CDBD7D00A94258 /* PaymentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECAD25CDBD7D00A94258 /* PaymentClass.swift */; };
+		DA3EECB225CDBD9A00A94258 /* ScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECB125CDBD9A00A94258 /* ScreenState.swift */; };
+		DA3EECB825CDBDD800A94258 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECB725CDBDD800A94258 /* EntryView.swift */; };
+		DA3EECBB25CDBDF200A94258 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECBA25CDBDF200A94258 /* Home.swift */; };
+		DA3EECBE25CDBE0600A94258 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECBD25CDBE0600A94258 /* CartView.swift */; };
+		DA3EECC125CDBE1E00A94258 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC025CDBE1E00A94258 /* ProductDetails.swift */; };
+		DA3EECC425CDBE3200A94258 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC325CDBE3200A94258 /* PortfolioView.swift */; };
+		DA3EECC725CDBE4200A94258 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC625CDBE4200A94258 /* AboutView.swift */; };
+		DA3EECCA25CDBE5800A94258 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC925CDBE5800A94258 /* PaymentButton.swift */; };
+		DA3EECCD25CDBE7800A94258 /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECCC25CDBE7800A94258 /* AddToCartButton.swift */; };
+		DA3EECD925CDBF0B00A94258 /* LilyClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECD825CDBF0B00A94258 /* LilyClipApp.swift */; };
+		DA3EECDD25CDBF0C00A94258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3EECDC25CDBF0C00A94258 /* Assets.xcassets */; };
+		DA3EECE025CDBF0C00A94258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3EECDF25CDBF0C00A94258 /* Preview Assets.xcassets */; };
+		DA3EECE525CDBF0C00A94258 /* LilyClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DA3EECD625CDBF0B00A94258 /* LilyClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA3EECEE25CDBF4A00A94258 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECA325CDBD2500A94258 /* Item.swift */; };
+		DA3EECF125CDBF4F00A94258 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECA825CDBD4000A94258 /* Cart.swift */; };
+		DA3EECF425CDBF5700A94258 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC925CDBE5800A94258 /* PaymentButton.swift */; };
+		DA3EECF725CDBF6000A94258 /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECC025CDBE1E00A94258 /* ProductDetails.swift */; };
+		DA3EECFA25CDBF6400A94258 /* PaymentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECAD25CDBD7D00A94258 /* PaymentClass.swift */; };
+		DA3EECFD25CDBF6700A94258 /* ScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EECB125CDBD9A00A94258 /* ScreenState.swift */; };
+		DA3EED0E25CDC14A00A94258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3EEC9525CDBC6300A94258 /* Assets.xcassets */; };
+		FFE21800B0D8FBBD35DBFB8A /* Pods_LilyClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC21FF5EE8207BBCA5C40E1 /* Pods_LilyClip.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3EECE325CDBF0C00A94258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3EEC8625CDBC6300A94258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3EECD525CDBF0B00A94258;
+			remoteInfo = LilyClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA3EECE925CDBF0C00A94258 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				DA3EECE525CDBF0C00A94258 /* LilyClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14B8A0891283E4C4CE5857E0 /* Pods-Lily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lily.release.xcconfig"; path = "Target Support Files/Pods-Lily/Pods-Lily.release.xcconfig"; sourceTree = "<group>"; };
+		3A0F91FFDF8F2B9C8DE67F3F /* Pods-LilyClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyClip.release.xcconfig"; path = "Target Support Files/Pods-LilyClip/Pods-LilyClip.release.xcconfig"; sourceTree = "<group>"; };
+		57625840470FBB66C8050ABC /* Pods_Lily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5942F1A3F013F56813F6989C /* Pods-LilyClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilyClip.debug.xcconfig"; path = "Target Support Files/Pods-LilyClip/Pods-LilyClip.debug.xcconfig"; sourceTree = "<group>"; };
+		C677A2D5DD506B301B486F16 /* Pods-Lily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lily.debug.xcconfig"; path = "Target Support Files/Pods-Lily/Pods-Lily.debug.xcconfig"; sourceTree = "<group>"; };
+		DA3EEC8E25CDBC6300A94258 /* Lily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3EEC9125CDBC6300A94258 /* LilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyApp.swift; sourceTree = "<group>"; };
+		DA3EEC9525CDBC6300A94258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3EEC9825CDBC6300A94258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA3EEC9A25CDBC6300A94258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3EECA325CDBD2500A94258 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DA3EECA825CDBD4000A94258 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		DA3EECAD25CDBD7D00A94258 /* PaymentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentClass.swift; sourceTree = "<group>"; };
+		DA3EECB125CDBD9A00A94258 /* ScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenState.swift; sourceTree = "<group>"; };
+		DA3EECB725CDBDD800A94258 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		DA3EECBA25CDBDF200A94258 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DA3EECBD25CDBE0600A94258 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		DA3EECC025CDBE1E00A94258 /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		DA3EECC325CDBE3200A94258 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		DA3EECC625CDBE4200A94258 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DA3EECC925CDBE5800A94258 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		DA3EECCC25CDBE7800A94258 /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
+		DA3EECD025CDBEFD00A94258 /* Lily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lily.entitlements; sourceTree = "<group>"; };
+		DA3EECD625CDBF0B00A94258 /* LilyClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilyClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3EECD825CDBF0B00A94258 /* LilyClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LilyClipApp.swift; sourceTree = "<group>"; };
+		DA3EECDC25CDBF0C00A94258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3EECDF25CDBF0C00A94258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA3EECE125CDBF0C00A94258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3EECE225CDBF0C00A94258 /* LilyClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LilyClip.entitlements; sourceTree = "<group>"; };
+		FEC21FF5EE8207BBCA5C40E1 /* Pods_LilyClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LilyClip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3EEC8B25CDBC6300A94258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C61750EDB025E51D49748A /* Pods_Lily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3EECD325CDBF0B00A94258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE21800B0D8FBBD35DBFB8A /* Pods_LilyClip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ACED53B38EB87C65A9EFED5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C677A2D5DD506B301B486F16 /* Pods-Lily.debug.xcconfig */,
+				14B8A0891283E4C4CE5857E0 /* Pods-Lily.release.xcconfig */,
+				5942F1A3F013F56813F6989C /* Pods-LilyClip.debug.xcconfig */,
+				3A0F91FFDF8F2B9C8DE67F3F /* Pods-LilyClip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80DC44BF56DF59E45795A473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57625840470FBB66C8050ABC /* Pods_Lily.framework */,
+				FEC21FF5EE8207BBCA5C40E1 /* Pods_LilyClip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3EEC8525CDBC6300A94258 = {
+			isa = PBXGroup;
+			children = (
+				DA3EEC9025CDBC6300A94258 /* Lily */,
+				DA3EECD725CDBF0B00A94258 /* LilyClip */,
+				DA3EEC8F25CDBC6300A94258 /* Products */,
+				4ACED53B38EB87C65A9EFED5 /* Pods */,
+				80DC44BF56DF59E45795A473 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3EEC8F25CDBC6300A94258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EEC8E25CDBC6300A94258 /* Lily.app */,
+				DA3EECD625CDBF0B00A94258 /* LilyClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3EEC9025CDBC6300A94258 /* Lily */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECD025CDBEFD00A94258 /* Lily.entitlements */,
+				DA3EEC9125CDBC6300A94258 /* LilyApp.swift */,
+				DA3EECA225CDBD0A00A94258 /* Model */,
+				DA3EECAC25CDBD6500A94258 /* Util */,
+				DA3EECB425CDBDB200A94258 /* Views */,
+				DA3EEC9525CDBC6300A94258 /* Assets.xcassets */,
+				DA3EEC9A25CDBC6300A94258 /* Info.plist */,
+				DA3EEC9725CDBC6300A94258 /* Preview Content */,
+			);
+			path = Lily;
+			sourceTree = "<group>";
+		};
+		DA3EEC9725CDBC6300A94258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EEC9825CDBC6300A94258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA3EECA225CDBD0A00A94258 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECA325CDBD2500A94258 /* Item.swift */,
+				DA3EECA825CDBD4000A94258 /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA3EECAC25CDBD6500A94258 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECAD25CDBD7D00A94258 /* PaymentClass.swift */,
+				DA3EECB125CDBD9A00A94258 /* ScreenState.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DA3EECB425CDBDB200A94258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECB525CDBDB900A94258 /* Pages */,
+				DA3EECB625CDBDBE00A94258 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA3EECB525CDBDB900A94258 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECB725CDBDD800A94258 /* EntryView.swift */,
+				DA3EECBA25CDBDF200A94258 /* Home.swift */,
+				DA3EECBD25CDBE0600A94258 /* CartView.swift */,
+				DA3EECC025CDBE1E00A94258 /* ProductDetails.swift */,
+				DA3EECC325CDBE3200A94258 /* PortfolioView.swift */,
+				DA3EECC625CDBE4200A94258 /* AboutView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		DA3EECB625CDBDBE00A94258 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECC925CDBE5800A94258 /* PaymentButton.swift */,
+				DA3EECCC25CDBE7800A94258 /* AddToCartButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DA3EECD725CDBF0B00A94258 /* LilyClip */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECD825CDBF0B00A94258 /* LilyClipApp.swift */,
+				DA3EECDC25CDBF0C00A94258 /* Assets.xcassets */,
+				DA3EECE125CDBF0C00A94258 /* Info.plist */,
+				DA3EECE225CDBF0C00A94258 /* LilyClip.entitlements */,
+				DA3EECDE25CDBF0C00A94258 /* Preview Content */,
+			);
+			path = LilyClip;
+			sourceTree = "<group>";
+		};
+		DA3EECDE25CDBF0C00A94258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA3EECDF25CDBF0C00A94258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3EEC8D25CDBC6300A94258 /* Lily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3EEC9D25CDBC6300A94258 /* Build configuration list for PBXNativeTarget "Lily" */;
+			buildPhases = (
+				127E4585679C56B1EA226D5C /* [CP] Check Pods Manifest.lock */,
+				DA3EEC8A25CDBC6300A94258 /* Sources */,
+				DA3EEC8B25CDBC6300A94258 /* Frameworks */,
+				DA3EEC8C25CDBC6300A94258 /* Resources */,
+				DA3EECE925CDBF0C00A94258 /* Embed App Clips */,
+				D2D962F9DA24B4F48E0BDF33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3EECE425CDBF0C00A94258 /* PBXTargetDependency */,
+			);
+			name = Lily;
+			productName = Lily;
+			productReference = DA3EEC8E25CDBC6300A94258 /* Lily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3EECD525CDBF0B00A94258 /* LilyClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3EECE625CDBF0C00A94258 /* Build configuration list for PBXNativeTarget "LilyClip" */;
+			buildPhases = (
+				A6EC253297AE4A01114DD289 /* [CP] Check Pods Manifest.lock */,
+				DA3EECD225CDBF0B00A94258 /* Sources */,
+				DA3EECD325CDBF0B00A94258 /* Frameworks */,
+				DA3EECD425CDBF0B00A94258 /* Resources */,
+				9FFAED382E17AE7A97CC8828 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LilyClip;
+			productName = LilyClip;
+			productReference = DA3EECD625CDBF0B00A94258 /* LilyClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3EEC8625CDBC6300A94258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DA3EEC8D25CDBC6300A94258 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DA3EECD525CDBF0B00A94258 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DA3EEC8925CDBC6300A94258 /* Build configuration list for PBXProject "Lily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3EEC8525CDBC6300A94258;
+			productRefGroup = DA3EEC8F25CDBC6300A94258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3EEC8D25CDBC6300A94258 /* Lily */,
+				DA3EECD525CDBF0B00A94258 /* LilyClip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3EEC8C25CDBC6300A94258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3EEC9925CDBC6300A94258 /* Preview Assets.xcassets in Resources */,
+				DA3EEC9625CDBC6300A94258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3EECD425CDBF0B00A94258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3EECE025CDBF0C00A94258 /* Preview Assets.xcassets in Resources */,
+				DA3EED0E25CDC14A00A94258 /* Assets.xcassets in Resources */,
+				DA3EECDD25CDBF0C00A94258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127E4585679C56B1EA226D5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFAED382E17AE7A97CC8828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LilyClip/Pods-LilyClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LilyClip/Pods-LilyClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LilyClip/Pods-LilyClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6EC253297AE4A01114DD289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LilyClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D962F9DA24B4F48E0BDF33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lily/Pods-Lily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lily/Pods-Lily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lily/Pods-Lily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3EEC8A25CDBC6300A94258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3EECCA25CDBE5800A94258 /* PaymentButton.swift in Sources */,
+				DA3EECB225CDBD9A00A94258 /* ScreenState.swift in Sources */,
+				DA3EECCD25CDBE7800A94258 /* AddToCartButton.swift in Sources */,
+				DA3EECC425CDBE3200A94258 /* PortfolioView.swift in Sources */,
+				DA3EECC725CDBE4200A94258 /* AboutView.swift in Sources */,
+				DA3EECC125CDBE1E00A94258 /* ProductDetails.swift in Sources */,
+				DA3EECA425CDBD2500A94258 /* Item.swift in Sources */,
+				DA3EECAE25CDBD7D00A94258 /* PaymentClass.swift in Sources */,
+				DA3EECA925CDBD4000A94258 /* Cart.swift in Sources */,
+				DA3EEC9225CDBC6300A94258 /* LilyApp.swift in Sources */,
+				DA3EECB825CDBDD800A94258 /* EntryView.swift in Sources */,
+				DA3EECBE25CDBE0600A94258 /* CartView.swift in Sources */,
+				DA3EECBB25CDBDF200A94258 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3EECD225CDBF0B00A94258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3EECF425CDBF5700A94258 /* PaymentButton.swift in Sources */,
+				DA3EECEE25CDBF4A00A94258 /* Item.swift in Sources */,
+				DA3EECF725CDBF6000A94258 /* ProductDetails.swift in Sources */,
+				DA3EECFD25CDBF6700A94258 /* ScreenState.swift in Sources */,
+				DA3EECF125CDBF4F00A94258 /* Cart.swift in Sources */,
+				DA3EECD925CDBF0B00A94258 /* LilyClipApp.swift in Sources */,
+				DA3EECFA25CDBF6400A94258 /* PaymentClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3EECE425CDBF0C00A94258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3EECD525CDBF0B00A94258 /* LilyClip */;
+			targetProxy = DA3EECE325CDBF0C00A94258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA3EEC9B25CDBC6300A94258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3EEC9C25CDBC6300A94258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3EEC9E25CDBC6300A94258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C677A2D5DD506B301B486F16 /* Pods-Lily.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lily/Lily.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lily/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F8K76LP8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lily/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pany.Lily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA3EEC9F25CDBC6300A94258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B8A0891283E4C4CE5857E0 /* Pods-Lily.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lily/Lily.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lily/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F8K76LP8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lily/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pany.Lily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA3EECE725CDBF0C00A94258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5942F1A3F013F56813F6989C /* Pods-LilyClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LilyClip/LilyClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LilyClip/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F8K76LP8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LilyClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pany.Lily.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA3EECE825CDBF0C00A94258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0F91FFDF8F2B9C8DE67F3F /* Pods-LilyClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LilyClip/LilyClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LilyClip/Preview Content\"";
+				DEVELOPMENT_TEAM = P2F8K76LP8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LilyClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pany.Lily.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3EEC8925CDBC6300A94258 /* Build configuration list for PBXProject "Lily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3EEC9B25CDBC6300A94258 /* Debug */,
+				DA3EEC9C25CDBC6300A94258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3EEC9D25CDBC6300A94258 /* Build configuration list for PBXNativeTarget "Lily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3EEC9E25CDBC6300A94258 /* Debug */,
+				DA3EEC9F25CDBC6300A94258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3EECE625CDBF0C00A94258 /* Build configuration list for PBXNativeTarget "LilyClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3EECE725CDBF0C00A94258 /* Debug */,
+				DA3EECE825CDBF0C00A94258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3EEC8625CDBC6300A94258 /* Project object */;
+}
