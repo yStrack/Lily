@@ -10,7 +10,7 @@ Projeto mostrando o funcionamento de um App Clip e sua integração com o Apple 
 A explicação mais completa você pode encontrar no nosso artigo do [Medium](https://vitorkrau.medium.com/integrando-pagamentos-com-apple-pay-app-clip-8c999777a763).
 
 ## Demo
-![Preview](https://ucface64f9a081548677b077b608.previews.dropboxusercontent.com/p/thumb/ABEt4z3vKGY-xzCPE4z7ALifDGBxNetfMdQo-CCNV-PtAC_rQkH9AEEb87HNRto2Js0Zz4UtnNetF9gdmcn1RFLaa0CFNXpV8U5rY7XWx7RBheyU0z3QLMvbVR0X0_df4JPDIjLLD6PSDTcTluAgFyGZS9cKi2G8P3gPzFs2Mzi02QJv4IMlOEt4UttKDkuENAgNGlL6yDK_WN53OrnW8inszDdMNUy9_eROkdR3EBvrbzcIHzQUpOVjyMg3eY50h1e-Dcp-upOJxqyy4r_9o4jZQckCkWY5HrdqqNc_hq65rLAknEYXSM7czBAqNI2S8EbOChPWGAEpAHxQ5kjf_bGE5UWsKbWjVYYlRcMBi68iXysVeUBb6Dl74e_YhhCziFoDuyb4ebyBNjo5gZgLw8ITm_bdKk-8KwsBXTuw1w7kO2WWH986Oovpnqe79XdEMwQ/p.png)
+![Preview](demo.png)
 
 
 ## Instalação
