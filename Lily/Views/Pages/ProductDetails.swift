@@ -80,18 +80,6 @@ struct ProductDetails: View {
             #endif
         }
         .edgesIgnoringSafeArea(.top)
-        .onAppear(){
-            #if APPCLIP
-            self.paymentHandler.startClipPayment(item: item) { (success) in
-                if success{
-                    print("Success")
-                }
-                else{
-                    print("Failed")
-                }
-            }
-            #endif
-        }
     }
 }
 
